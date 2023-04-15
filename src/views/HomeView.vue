@@ -1,9 +1,11 @@
 <script setup>
-import TheWelcome from '../components/TheWelcome.vue'
+import WindowCore from "@/components/WindowCore.vue";
+import Title from "@/components/Title.vue";
 </script>
 
 <template>
   <main>
-    <TheWelcome />
+    <Title/>
+    <WindowCore/>
   </main>
 </template>
