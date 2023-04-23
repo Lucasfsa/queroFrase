@@ -17,7 +17,7 @@ dom.watch();
 import axios from 'axios'
 import Notifications from '@kyvg/vue3-notification'
 
-axios.defaults.headers.post['Authorization'] = 'Bearer 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'
+axios.defaults.headers.post['Authorization'] = `Bearer ${import.meta.env.VITE_API_KEY}`
 axios.defaults.baseURL = 'https://api.openai.com/v1/'
 
 const app = createApp(App)
